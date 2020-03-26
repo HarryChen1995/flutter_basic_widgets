@@ -8,13 +8,13 @@ class myapp extends StatelessWidget{
       return MaterialApp(
         title:"flutter basic",
         theme: ThemeData(primaryColor: Colors.white),
-        home: myWidget()
+        home: AppBar_Widget()
       );
   }
 }
 
 
-class myWidget extends StatelessWidget{
+class AppBar_Widget extends StatelessWidget{
     void openNextPage(BuildContext context){
       Navigator.push(context, MaterialPageRoute(
         builder: (BuildContext context){

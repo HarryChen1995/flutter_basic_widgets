@@ -7,13 +7,13 @@ class myapp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       title:"Icon Demo",
-      home: container_widgets()
+      home: icon_widgets()
     );
 
   }
 }
 
-class container_widgets extends StatelessWidget{
+class icon_widgets extends StatelessWidget{
   @override 
   Widget build(BuildContext context){
     return Scaffold(
